@@ -1,0 +1,32 @@
+.navBar {
+    margin: 0 !important;
+    height: 80px;
+    justify-content: space-between;
+}
+
+.menuItems {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.shadow {
+    box-shadow: 0 20px 40px rgba(0,0,0,0.04) !important;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: auto;
+    z-index: 101;
+}
+
+.menu {
+    margin: 0 auto !important;
+}
+
+.logo {
+    transition: all 0.4s cubic-bezier(0.4, 2, 0.68, 1) !important;
+}
+
+.logo:hover {
+    transform: scale(1.16) rotate(-6deg);
+}
