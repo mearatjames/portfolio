@@ -9,7 +9,7 @@ render() {
     return (
         <div id='contact'>
           <Container className='contact'>
-            <Form name="contact" method="POST" data-netlify="true">
+            <Form name="contact" action="POST" data-netlify="true">
                 <Form.Field>
                     <label>Name</label>
                     <input name='name' placeholder='Name' />
