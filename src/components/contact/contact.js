@@ -9,7 +9,7 @@ render() {
     return (
         <div id='contact'>
           <Container className='contact'>
-            <Form name="contact" method="post" data-netlify="true">
+            <Form name="contact" action='#' method="post" data-netlify="true">
                 <Form.Field>
                     <label>Name</label>
                     <input name='name' placeholder='Name' />
@@ -25,7 +25,9 @@ render() {
                     label='Message'
                     placeholder='Message'
                     />
+                <Form.Field>
                 <div data-netlify-recaptcha="true"></div>
+                </Form.Field>
                 <Button type='submit'>Submit</Button>
             </Form>
           </Container>
