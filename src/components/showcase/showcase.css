@@ -10,9 +10,11 @@
     align-items: center;
     font-size: 3rem;
     font-weight: 600;
-    
 }
 
+.showcase div p {
+    font-family: 'Philosopher', sans-serif;
+}
 .square {
     top: -490px;
     right: -40px;
