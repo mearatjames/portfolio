@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './showcase.css'
+import Typewriter from 'typewriter-effect';
 
 class Showcase extends Component {
 
@@ -10,7 +11,13 @@ render() {
           <div className='showcase'>
             <div style={{textAlign: 'center', zIndex: 10}}>
               <p>Mearat Hou</p>
-              <p>Javascript Developer</p>
+              <Typewriter
+                options={{
+                  strings: ['Javascript Developer', 'React Developer', 'Web Developer'],
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
             </div>
             <div className='circle'></div>
             <div className='square'></div>
