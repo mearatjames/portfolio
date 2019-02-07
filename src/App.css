@@ -1,6 +1,10 @@
-a {
+a.item {
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: 1.2rem;
+}
+
+a.item.active {
+  color: #06f !important;
 }
 
 .primary {

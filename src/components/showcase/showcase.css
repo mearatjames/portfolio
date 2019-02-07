@@ -5,6 +5,12 @@
     padding: 15px;
     margin-top: 80px;
     position: relative;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: 600;
+    
 }
 
 .square {
@@ -40,7 +46,7 @@
         width: 300px;
         height: 300px;
     }
-    
+
     .circle {
         top: -145px;
         right: -100px;

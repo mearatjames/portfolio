@@ -12,7 +12,7 @@ render() {
           <Container className='contact'>
             <Header textAlign='center' as='h2' icon>
                 <Slide left>
-                    <Icon name='paper plane' />
+                    <Icon className='glow' name='paper plane' />
                 </Slide>
                 Contact
             </Header>

@@ -8,3 +8,10 @@
     background-color: rgb(247, 247, 247);
     min-height: calc(100vh - 80px);
 }
+
+.glow {
+    background: -webkit-linear-gradient( #2336b6, rgba(31,38,103,0.9));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 10px 30px rgba(133, 141, 215, 0.4);
+}
