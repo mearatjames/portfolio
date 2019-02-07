@@ -7,11 +7,11 @@ class Showcase extends Component {
 render() {
 
     return (
-    <div className='showcase'>
-      <Container>
-        <h1 className='primary'>Showcase</h1>
-      </Container>
-    </div>
+        <div id='showcase'>
+          <div className='showcase'>
+            <h1 className='primary'>Showcase</h1>
+          </div>
+        </div>
     )
 }
 }

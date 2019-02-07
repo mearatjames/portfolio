@@ -5,6 +5,7 @@ import About from './components/about/about.js'
 import Footer from './components/footer/footer.js'
 import Showcase from './components/showcase/showcase.js'
 import Portfolio from './components/portfolio/portfolio.js'
+import Contact from './components/contact/contact.js'
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
         <Showcase />
         <Portfolio />
         <About />
+        <Contact />
         <Footer />
       </React.Fragment>
     );

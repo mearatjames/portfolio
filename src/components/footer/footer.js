@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Container } from 'semantic-ui-react'
+import { Container, Icon, Popup } from 'semantic-ui-react'
 import './footer.css'
 
 
@@ -7,20 +7,29 @@ class Footer extends Component {
   
   render() {
     return (
-        <div className='footer'>
-            <Container style={{backgroundColor: 'rgba(0,0,0,0)'}}>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-                    Aenean massa strong. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-                    ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla
-                    consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
-                    In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
-                    link mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean
-                    vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac,
-                    enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla
-                    ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.
-                    Curabitur ullamcorper ultricies nisi.
-                </p>
+        <div>
+            <Container className='footer' style={{backgroundColor: 'rgba(0,0,0,0)'}}>
+                <div className='connect'>
+                    <h3>Connect</h3>
+                </div>
+                <div className='list3'>
+                    <a href='https://github.com/mearatjames'><h3><Icon name='github' /> Github</h3></a> 
+                    <a href='https://www.linkedin.com/in/mearat-hou-013a93164/'><h3><Icon name='linkedin' />LinkedIn</h3></a> 
+                    <a href="mailto:mearatjames@gmail.com"><h3><Icon name='envelope' /> Email</h3></a> 
+                </div>
+                <div className='project'>
+                    <h3>Project</h3>
+                </div>
+                <div className='upArrow'>
+                    <Popup
+                        trigger={<a href='#showcase'><Icon className='backToTop' link name='chevron up' size='large'/></a>}
+                        content='BACK TO TOP'
+                        position='bottom left'
+                    />
+                </div>
+                <div className='copyright'>
+                    <span>© 2019.  </span><a href='https://github.com/mearatjames'> Mearat Hou</a>
+                </div>
             </Container>
         </div>
     )

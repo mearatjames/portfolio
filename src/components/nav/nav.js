@@ -16,7 +16,7 @@ class NavMenu extends Component {
             <Menu className='menu' style={{background: 'rgba(255, 255, 255, 0.9)'}} text>
                 <Container className='navBar'>
                         <Menu.Item
-                        href='./'
+                        href='#showcase'
                         className='logo'
                         >
                             <img style={{width: '120px'}} src='./images/logo.png' alt='Logo'/>
