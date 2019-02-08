@@ -12,7 +12,7 @@
     font-weight: 600;
 }
 
-.showcase div p {
+.showcase div p:first-child {
     font-family: 'Philosopher', sans-serif;
 }
 .square {

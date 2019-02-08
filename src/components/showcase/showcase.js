@@ -13,11 +13,12 @@ render() {
               <p>Mearat Hou</p>
               <Typewriter
                 options={{
-                  strings: ['Javascript Developer', 'React Developer', 'Web Developer'],
+                  strings: ['Web','Javascript','React','Freelance'],
                   autoStart: true,
                   loop: true,
                 }}
               />
+              <p>Developer</p>
             </div>
             <div className='circle'></div>
             <div className='square'></div>
