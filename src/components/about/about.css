@@ -2,6 +2,7 @@
     min-height: calc(100vh - 80px) !important;
     background: #e0e4eb !important;
     padding: 30px 15px;
+    overflow: hidden;
 }
 
 .mearat {
