@@ -17,6 +17,7 @@
     font-family: 'Philosopher', sans-serif;
 }
 .square {
+    z-index: 1;
     top: -490px;
     right: -40px;
     width: 600px;
@@ -28,7 +29,7 @@
     transition-delay: 50ms;
 }
 
-.circular {
+.round {
     top: 95px;
     right: -30px;
     width: 350px;
@@ -50,7 +51,7 @@
         height: 300px;
     }
 
-    .circular {
+    .round {
         top: -145px;
         right: -100px;
         width: 350px;
@@ -67,7 +68,7 @@
         height: 200px;
     }
 
-    .circular {
+    .round {
         top: -60px;
         right: -80px;
         width: 220px;

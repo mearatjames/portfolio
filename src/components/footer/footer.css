@@ -18,6 +18,14 @@
     grid-area: list3;
 }
 
+.list1 {
+    grid-area: list1;
+}
+
+.list2 {
+    grid-area: list2;
+}
+
 .project {
     grid-area: project;
 }
@@ -44,15 +52,35 @@
     transform: scale(1.16);
 }
 
-.list3 a {
+.list3 a, .list2 a, .list1 a {
     text-decoration: none;
     color: grey;
 }
 
-.list3 h3 {
+.list3 h3, .list1 h3, .list2 h3 {
     margin-top: 10px !important;
 }
 
-.list3 a:hover {
+.list3 a:hover, .list1 a:hover, .list2 a:hover {
     color: black;
+}
+
+@media screen and (max-width: 600px) {
+    .footer {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 3fr 3fr 1fr 3fr 1fr;
+        grid-template-areas: 
+            'project'
+            'list1'
+            'list2'
+            'connect'
+            'list3'
+            'copyright';
+        justify-items: center;
+        text-align: center;
+    }
+
+    .connect {
+        margin-top: 10px;
+    }
 }

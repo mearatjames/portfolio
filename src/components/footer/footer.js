@@ -20,6 +20,16 @@ class Footer extends Component {
                 <div className='project'>
                     <h3>Work</h3>
                 </div>
+                <div className='list1'>
+                    <a href='https://github.com/mearatjames'><h3>Deez Nutrients</h3></a> 
+                    <a href='https://www.linkedin.com/in/mearat-hou-013a93164/'><h3>NYT Scraping</h3></a> 
+                    <a href="mailto:mearatjames@gmail.com"><h3>Googlebooks</h3></a> 
+                </div>
+                <div className='list2'>
+                    <a href='https://github.com/mearatjames'><h3>Web Accounting</h3></a> 
+                    <a href='https://www.linkedin.com/in/mearat-hou-013a93164/'><h3>Deez Polls</h3></a> 
+                    <a href="mailto:mearatjames@gmail.com"><h3>Trivia Game</h3></a> 
+                </div>
                 <div className='upArrow'>
                     <Popup
                         trigger={<a href='#showcase'><Icon className='backToTop' link name='chevron up' size='large'/></a>}

@@ -7,5 +7,57 @@
 
 .mearat {
     border: 5px solid rgb(0, 157, 255);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.16) ;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.16);
+    grid-area: image;
+    max-width: 100%;
+    max-height: 100%;
+    align-self: center;
+}
+
+.aboutMe {
+    display: grid !important;
+    grid-gap: 18px;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 2fr 1fr;
+    grid-template-areas: 
+    "image details"
+    "link .";
+}
+
+.link {
+    grid-area: link;
+    align-self: start;
+}
+/* 
+.details {
+    grid-area: details;
+    max-width: 100%;
+    max-height: 100%;
+    align-self: center;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.16);
+} */
+
+.myImage {
+    max-width: 100%;
+    max-height: 100%;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.16);
+    grid-area: details;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .mearat {
+        max-height: 140px;
+        max-width: 140px !important;
+    }
+    .aboutMe {
+        grid-template-columns: 1fr;
+        grid-row: 2fr 1fr 2fr;
+        grid-template-areas: 
+        'image'
+        'link'
+        'details'
+    }
 }

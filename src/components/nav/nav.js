@@ -29,7 +29,7 @@ class NavMenu extends Component {
                                 <img style={{width: '120px'}} src='./images/logo.png' alt='Logo'/>
                             </Fade>
                         </Menu.Item>
-                        <div>
+                        <div style={{margin: 'auto 0'}}>
                             <Button onClick={this.handleOpen} size='huge' className='hamburger' style={{display:'none', boxShadow: 'none'}} animated='vertical'>
                                     <Icon name='th large' />
                             </Button>

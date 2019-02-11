@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {Container, Image, Header, Icon } from 'semantic-ui-react'
+import {Container, Image, Header, Icon, Button } from 'semantic-ui-react'
 import './about.css'
 import Slide from 'react-reveal/Slide';
 
@@ -16,16 +16,14 @@ render() {
                 </Slide>
                 About
         </Header>
-            <Container>
+            <Container className='aboutMe'>
                 <Image className='mearat' src='./images/Mearat.jpg' size='medium' circular />
-                <h2>Full Stack Web Developer</h2>
-                {/* To Do: Make a javascript object displaying about me overview: let AboutMe = {
-                    name: Mearat Hou,
-                    softSkills: ['adaptable', 'teamPlayer', 'problemSolving', 'timeManagement']
-                    language: javascript,
-                    skills: [HTML, CSS, React, Node, MongoDB, Express, mySQL],
-                    education: UCI Coding Boot Camp,         
-                } */}
+                <div className='link'>
+                    <Button target='blank' href='https://github.com/mearatjames/' size='large' circular color='black' icon='github' title='Github' />
+                    <Button target='blank' href='https://www.linkedin.com/in/mearat-hou-013a93164/' size='large' circular color='linkedin' icon='linkedin' title='LinkedIn'/>
+                    <Button href='./files/resume.pdf' download size='large' circular color='google plus' icon='file pdf' title='Download Resume' />
+                </div>
+                <img className='myImage' src='./images/aboutMe.png' alt='aboutMe' />
             </Container>
         </div>
     </div>
