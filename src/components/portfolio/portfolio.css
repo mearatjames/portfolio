@@ -4,14 +4,15 @@
 }
 
 .projects {
+    padding-bottom: 30px;
     display: grid !important;
     grid-template-rows: 1fr 3fr 3fr;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 2vw;
     grid-template-areas: 
     'title title title'
-    'work1 work1 work2'
-    'work3 work4 work5'
+    'work1 work2 work3'
+    'work4 work5 work6'
 }
 
 .workTitle {
@@ -22,4 +23,30 @@
 
 .cards {
     box-shadow: 0 20px 40px rgba(0,0,0,0.04) !important;
+}
+
+@media screen and (max-width: 600px) {
+    .projects {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 2fr 2fr 2fr 2fr 2fr 2fr;
+        grid-template-areas: 
+            'title'
+            'work1'
+            'work2'
+            'work3'
+            'work4'
+            'work5'
+            'work6'
+    }
+}
+@media screen and (max-width: 992px) {
+    .projects {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 2fr 2fr 2fr;
+        grid-template-areas: 
+            'title title'
+            'work1 work2'
+            'work3 work4'
+            'work5 work6'
+    }
 }
