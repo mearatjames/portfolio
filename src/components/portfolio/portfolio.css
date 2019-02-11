@@ -5,9 +5,20 @@
 
 .projects {
     display: grid !important;
+    grid-template-rows: 1fr 3fr 3fr;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 2vw;
+    grid-template-areas: 
+    'title title title'
+    'work1 work1 work2'
+    'work3 work4 work5'
 }
+
+.workTitle {
+    padding-top: 30px !important;
+    grid-area: title;
+}
+
 
 .cards {
     box-shadow: 0 20px 40px rgba(0,0,0,0.04) !important;

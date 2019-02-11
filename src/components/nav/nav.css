@@ -16,7 +16,13 @@
     width: 100%;
     top: 0;
     left: auto;
-    z-index: 101;
+    z-index: 1;
+}
+
+.mobileNav {
+    display: block;
+    height: 60px;
+    padding-top: 15px;
 }
 
 .menu {

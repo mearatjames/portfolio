@@ -9,7 +9,7 @@ render() {
     return (
         <div id='showcase'>
           <div className='showcase'>
-            <div style={{textAlign: 'center', zIndex: 10}}>
+            <div style={{textAlign: 'center', zIndex: 0}}>
               <p>Mearat Hou</p>
               <Typewriter
                 options={{
@@ -20,7 +20,7 @@ render() {
               />
               <p>Developer</p>
             </div>
-            <div className='circle'></div>
+            <div className='circular'></div>
             <div className='square'></div>
           </div>
         </div>

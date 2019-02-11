@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
-import {Container, Segment, Card, Image, Icon} from 'semantic-ui-react'
+import {Container, Card, Image, Icon, Header} from 'semantic-ui-react'
 import './portfolio.css'
+import Fade from 'react-reveal/Fade';
 
 class Portfolio extends Component {
 
@@ -8,8 +9,14 @@ render() {
 
     return (
     <div id='portfolio'> 
-        <Segment style={{zIndex:'1', marginTop:'0'}} className='portfolio' placeholder>
+        <div className='portfolio'>
          <Container className='projects'>
+            <Header className='workTitle' textAlign='center' as='h2' icon>
+                <Fade bottom>
+                    <Icon className='glow' name='code' />
+                </Fade>
+                Work
+            </Header>
             <div> 
                 <Card className='cards' fluid>
                     <Image src='https://react.semantic-ui.com/images/avatar/large/daniel.jpg' />
@@ -59,7 +66,7 @@ render() {
                 </Card>
             </div>
          </Container>
-        </Segment>
+        </div>
     </div>
     )
 }

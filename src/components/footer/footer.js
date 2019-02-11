@@ -14,11 +14,11 @@ class Footer extends Component {
                 </div>
                 <div className='list3'>
                     <a href='https://github.com/mearatjames'><h3><Icon name='github' /> Github</h3></a> 
-                    <a href='https://www.linkedin.com/in/mearat-hou-013a93164/'><h3><Icon name='linkedin' />LinkedIn</h3></a> 
+                    <a href='https://www.linkedin.com/in/mearat-hou-013a93164/'><h3><Icon name='linkedin' /> LinkedIn</h3></a> 
                     <a href="mailto:mearatjames@gmail.com"><h3><Icon name='envelope' /> Email</h3></a> 
                 </div>
                 <div className='project'>
-                    <h3>Project</h3>
+                    <h3>Work</h3>
                 </div>
                 <div className='upArrow'>
                     <Popup

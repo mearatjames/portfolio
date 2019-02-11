@@ -1,5 +1,10 @@
 .about {
     min-height: calc(100vh - 80px) !important;
-    background: linear-gradient(90deg, rgb(255, 255, 255) 20px, transparent 1%) center, linear-gradient(rgb(255, 255, 255) 20px, transparent 1%) center, rgb(238, 238, 238) !important;
-    background-size: 22px 22px !important;
+    background: #e0e4eb !important;
+    padding: 30px 15px;
+}
+
+.mearat {
+    border: 5px solid rgb(0, 157, 255);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.16) ;
 }
