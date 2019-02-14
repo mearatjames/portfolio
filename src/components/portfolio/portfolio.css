@@ -25,6 +25,11 @@
     box-shadow: 0 20px 40px rgba(0,0,0,0.04) !important;
 }
 
+.cardsLink {
+    display: flex;
+    justify-content: space-between;
+}
+
 @media screen and (max-width: 600px) {
     .projects {
         grid-template-columns: 1fr;
