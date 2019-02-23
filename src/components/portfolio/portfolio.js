@@ -15,7 +15,7 @@ render() {
                 <Fade bottom>
                     <Icon className='glow' name='code' />
                 </Fade>
-                Work
+                Portfolio
             </Header>
             <div> 
                 <Card className='cards' fluid>
@@ -23,7 +23,7 @@ render() {
                     <Card.Content>
                     <Card.Header>NYT Scraper</Card.Header>
                     <Card.Meta>Web Scraping Project</Card.Meta>
-                    <Card.Description>Daniel is a comedian living in Nashville.</Card.Description>
+                    <Card.Description>A MERN stack web application using Cheerio npm package to scrape news off NYT website.</Card.Description>
                     </Card.Content>
                     <Card.Content className='cardsLink' extra>
                         <a target='blank' href='https://still-castle-19414.herokuapp.com/'>
@@ -42,8 +42,8 @@ render() {
                     <Image src='./images/googlebooks.webp' />
                     <Card.Content>
                     <Card.Header>Google Books</Card.Header>
-                    <Card.Meta>Joined in 2016</Card.Meta>
-                    <Card.Description>Daniel is a comedian living in Nashville.</Card.Description>
+                    <Card.Meta>Book Searching Project</Card.Meta>
+                    <Card.Description>Another MERN stack web application using google books api to search for books.</Card.Description>
                     </Card.Content>
                     <Card.Content className='cardsLink' extra>
                         <a target='blank' href='https://secure-reef-41974.herokuapp.com/'>
@@ -62,8 +62,8 @@ render() {
                     <Image src='./images/deeznutrients.webp' />
                     <Card.Content>
                     <Card.Header>Deez Nutrients</Card.Header>
-                    <Card.Meta>Joined in 2016</Card.Meta>
-                    <Card.Description>Daniel is a comedian living in Nashville.</Card.Description>
+                    <Card.Meta>Nutrition Search Application</Card.Meta>
+                    <Card.Description>First project utilising NutritionIx and Google Charts api to search and track nutritional value.</Card.Description>
                     </Card.Content>
                     <Card.Content className='cardsLink' extra>
                         <a target='blank' href='https://vitamind-b6c3c.firebaseapp.com/'>
@@ -81,9 +81,9 @@ render() {
                 <Card className='cards' fluid>
                     <Image src='./images/webaccounting.webp' />
                     <Card.Content>
-                    <Card.Header>Web Accounting</Card.Header>
-                    <Card.Meta>Joined in 2016</Card.Meta>
-                    <Card.Description>Daniel is a comedian living in Nashville.</Card.Description>
+                    <Card.Header>ACCTG Web Accounting</Card.Header>
+                    <Card.Meta>Basic Web Accounting Application</Card.Meta>
+                    <Card.Description>A simple enterprise accounting/book-keeping web-based application (UCI Boot Camp Group Project).</Card.Description>
                     </Card.Content>
                     <Card.Content className='cardsLink' extra>
                         <a target='blank' href='https://peaceful-anchorage-98434.herokuapp.com/'>
@@ -102,8 +102,8 @@ render() {
                     <Image src='./images/deezpolls.webp' />
                     <Card.Content>
                     <Card.Header>Deez Polls</Card.Header>
-                    <Card.Meta>Joined in 2016</Card.Meta>
-                    <Card.Description>Daniel is a comedian living in Nashville.</Card.Description>
+                    <Card.Meta>Customized Polling Web Application</Card.Meta>
+                    <Card.Description>2nd Group Project Express application using Sequelize and deployed via Heroku</Card.Description>
                     </Card.Content>
                     <Card.Content className='cardsLink' extra>
                         <a target='blank' href='https://afternoon-crag-56596.herokuapp.com/polls'>
@@ -122,8 +122,8 @@ render() {
                     <Image src='./images/triviagame.webp' />
                     <Card.Content>
                     <Card.Header>Trivia Game</Card.Header>
-                    <Card.Meta>Joined in 2016</Card.Meta>
-                    <Card.Description>Daniel is a comedian living in Nashville.</Card.Description>
+                    <Card.Meta>Basic Javascript App</Card.Meta>
+                    <Card.Description>Javascript functions and methods warm up in a form of U.S citizenship trivia game.</Card.Description>
                     </Card.Content>
                     <Card.Content className='cardsLink' extra>
                         <a target='blank' href='https://mearatjames.github.io/TriviaGame/'>

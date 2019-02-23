@@ -18,7 +18,7 @@ class Footer extends Component {
                     <a target='blank' href="mailto:mearatjames@gmail.com"><h3><Icon name='envelope' /> Email</h3></a> 
                 </div>
                 <div className='project'>
-                    <h3>Work</h3>
+                    <h3>Portfolio</h3>
                 </div>
                 <div className='list1'>
                     <a target='blank' href='https://github.com/mearatjames/Deez-Nutrients'><h3>Deez Nutrients</h3></a> 

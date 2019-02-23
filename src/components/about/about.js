@@ -24,6 +24,12 @@ render() {
                     <Button href='./files/resume.pdf' download size='large' circular color='google plus' icon='file pdf' title='Download Resume' />
                 </div>
                 <img className='myImage' src='./images/aboutMe.png' alt='aboutMe' />
+                <div style={{alignSelf:'start'}}>
+                    <Button basic color='blue' href='./files/resume.pdf' target='_blank' icon labelPosition='right'>
+                        View Resume
+                        <Icon name='right arrow' />
+                    </Button>
+                </div>
             </Container>
         </div>
     </div>

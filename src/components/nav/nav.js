@@ -37,7 +37,7 @@ class NavMenu extends Component {
                         <Scrollspy className='menuItems' offset={-200} items={ ['showcase', 'portfolio', 'about', 'contact'] } currentClassName="active">
                             <a href='#showcase' style={{display:'none'}}>Showcase</a>
                             <Menu.Item
-                            name='work'
+                            name='Portfolio'
                             href='#portfolio'
                             />
                             <Menu.Item
@@ -63,7 +63,7 @@ class NavMenu extends Component {
         <List relaxed size='massive' divided verticalAlign='middle'>
             <List.Item>
             <List.Content>
-                <List.Header onClick={this.handleClose} href='#portfolio' as='a'>Work</List.Header>
+                <List.Header onClick={this.handleClose} href='#portfolio' as='a'>Portfolio</List.Header>
             </List.Content>
             </List.Item>
             <List.Item>
