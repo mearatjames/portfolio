@@ -17,13 +17,13 @@ render() {
                 About
         </Header>
             <Container className='aboutMe'>
-                <Image className='mearat' src='./images/Mearat.webp' size='medium' circular />
+                <Image className='mearat' src='./images/Mearat.jpg' size='medium' circular />
                 <div className='link'>
                     <Button target='blank' href='https://github.com/mearatjames/' size='large' circular color='black' icon='github' title='Github' />
                     <Button target='blank' href='https://www.linkedin.com/in/mearat-hou-013a93164/' size='large' circular color='linkedin' icon='linkedin' title='LinkedIn'/>
                     <Button href='./files/resume.pdf' download size='large' circular color='google plus' icon='file pdf' title='Download Resume' />
                 </div>
-                <img className='myImage' src='./images/aboutMe.webp' alt='aboutMe' />
+                <img className='myImage' src='./images/aboutMe.jpg' alt='aboutMe' />
                 <div style={{alignSelf:'start'}}>
                     <Button basic color='blue' href='./files/resume.pdf' target='_blank' icon labelPosition='right'>
                         View Resume

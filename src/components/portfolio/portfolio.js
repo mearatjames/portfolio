@@ -6,7 +6,7 @@ import Fade from 'react-reveal/Fade';
 const portfolioContents = [
     {
         header: 'NYT Scraper',
-        images: './images/nytscraper.webp',
+        images: './images/nytscraper.jpg',
         meta: 'Web Scraping Project',
         description: 'A MERN stack web application using Cheerio npm package to scrape news off NYT website.',
         demoLink: 'https://still-castle-19414.herokuapp.com/',
@@ -14,7 +14,7 @@ const portfolioContents = [
     },
     {
         header: 'Google Books',
-        images: './images/googlebooks.webp',
+        images: './images/googlebooks.jpg',
         meta: 'Book Searching Project',
         description: 'Another MERN stack web application using google books api to search for books.',
         demoLink: 'https://secure-reef-41974.herokuapp.com/',
@@ -22,7 +22,7 @@ const portfolioContents = [
     },
     {
         header: 'Deez Nutrients',
-        images: './images/deeznutrients.webp',
+        images: './images/deeznutrients.jpg',
         meta: 'Nutrition Search and Track Application',
         description: 'First project utilising NutritionIx and Google Charts api to search and track nutritional value.',
         demoLink: 'https://vitamind-b6c3c.firebaseapp.com/',
@@ -30,7 +30,7 @@ const portfolioContents = [
     },
     {
         header: 'ACCTG Web Accounting',
-        images: './images/webaccounting.webp',
+        images: './images/webaccounting.jpg',
         meta: 'Basic Web Accounting Application',
         description: 'A simple enterprise accounting/book-keeping web-based application (UCI Boot Camp Group Project).',
         demoLink: 'https://peaceful-anchorage-98434.herokuapp.com/',
@@ -38,7 +38,7 @@ const portfolioContents = [
     },
     {
         header: 'Deez Polls',
-        images: './images/deezpolls.webp',
+        images: './images/deezpolls.jpg',
         meta: 'Customized Polling Web Application',
         description: '2nd Group Project Express application using Sequelize and deployed via Heroku.',
         demoLink: 'https://afternoon-crag-56596.herokuapp.com/polls',
@@ -46,7 +46,7 @@ const portfolioContents = [
     },
     {
         header: 'Trivia Game',
-        images: './images/triviagame.webp',
+        images: './images/triviagame.jpg',
         meta: 'Basic Javascript Application',
         description: 'Javascript functions and methods warm up in a form of U.S citizenship trivia game.',
         demoLink: 'https://mearatjames.github.io/TriviaGame/',
