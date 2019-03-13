@@ -32,7 +32,7 @@ const portfolioContents = [
         header: 'ACCTG Web Accounting',
         images: './images/webaccounting.jpg',
         meta: 'Basic Web Accounting Application',
-        description: 'A simple enterprise accounting/book-keeping web-based application (UCI Boot Camp Group Project).',
+        description: 'A simple enterprise accounting/book-keeping web-based application.',
         demoLink: 'https://peaceful-anchorage-98434.herokuapp.com/',
         githubLink: 'https://github.com/stevenguy/bc-project-3/tree/mearat'
     },
