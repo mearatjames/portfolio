@@ -1,12 +1,13 @@
 import React, { Component } from 'react'
-import {Container, Card, Image, Icon, Header} from 'semantic-ui-react'
+import {Container, Card, Icon, Header} from 'semantic-ui-react'
 import './portfolio.css'
 import Fade from 'react-reveal/Fade';
+import Carousel from '../carousel/carousel.js'
 
 const portfolioContents = [
     {
         header: 'NYT Scraper',
-        images: './images/nytscraper.jpg',
+        images: ['./images/nytscraper1.jpg', './images/nytscraper2.jpg', './images/nytscraper3.jpg'],
         meta: 'Web Scraping Project',
         description: 'A MERN stack web application using Cheerio npm package to scrape news off NYT website.',
         demoLink: 'https://still-castle-19414.herokuapp.com/',
@@ -14,7 +15,7 @@ const portfolioContents = [
     },
     {
         header: 'Google Books',
-        images: './images/googlebooks.jpg',
+        images: ['./images/googlebooks1.jpg', './images/googlebooks2.jpg', './images/googlebooks3.jpg'],
         meta: 'Book Searching Project',
         description: 'Another MERN stack web application using google books api to search for books.',
         demoLink: 'https://secure-reef-41974.herokuapp.com/',
@@ -22,7 +23,7 @@ const portfolioContents = [
     },
     {
         header: 'Deez Nutrients',
-        images: './images/deeznutrients.jpg',
+        images: ['./images/deeznutrients1.jpg', './images/deeznutrients2.jpg', './images/deeznutrients3.jpg'],
         meta: 'Nutrition Search and Track Application',
         description: 'First project utilising NutritionIx and Google Charts api to search and track nutritional value.',
         demoLink: 'https://vitamind-b6c3c.firebaseapp.com/',
@@ -30,7 +31,7 @@ const portfolioContents = [
     },
     {
         header: 'ACCTG Web Accounting',
-        images: './images/webaccounting.jpg',
+        images: ['./images/webaccounting1.jpg', './images/webaccounting2.jpg', './images/webaccounting3.jpg'],
         meta: 'Basic Web Accounting Application',
         description: 'A simple enterprise accounting/book-keeping web-based application.',
         demoLink: 'https://peaceful-anchorage-98434.herokuapp.com/',
@@ -38,7 +39,7 @@ const portfolioContents = [
     },
     {
         header: 'Deez Polls',
-        images: './images/deezpolls.jpg',
+        images: ['./images/deezpolls1.jpg', './images/deezpolls2.jpg', './images/deezpolls3.jpg'],
         meta: 'Customized Polling Web Application',
         description: '2nd Group Project Express application using Sequelize and deployed via Heroku.',
         demoLink: 'https://afternoon-crag-56596.herokuapp.com/polls',
@@ -46,7 +47,7 @@ const portfolioContents = [
     },
     {
         header: 'Trivia Game',
-        images: './images/triviagame.jpg',
+        images: ['./images/triviagame1.jpg', './images/triviagame2.jpg', './images/triviagame3.jpg'],
         meta: 'Basic Javascript Application',
         description: 'Javascript functions and methods warm up in a form of U.S citizenship trivia game.',
         demoLink: 'https://mearatjames.github.io/TriviaGame/',
@@ -73,8 +74,9 @@ render() {
             {portfolioContents.map((e, i) => (
                 <div key={i}> 
                     <Card className='cards' fluid>
-                        <Image src={e.images} />
+                        {/* <Image src={e.images} /> */}
                         <Card.Content>
+                        <Carousel img={e.images} />
                         <Card.Header>{e.header}</Card.Header>
                         <Card.Meta>{e.meta}</Card.Meta>
                         <Card.Description>{e.description}</Card.Description>

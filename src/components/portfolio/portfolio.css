@@ -29,6 +29,17 @@
     display: flex;
     justify-content: space-between;
 }
+@media screen and (max-width: 992px) {
+    .projects {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 2fr 2fr 2fr;
+        grid-template-areas: 
+            'title title'
+            'work1 work2'
+            'work3 work4'
+            'work5 work6'
+    }
+}
 
 @media screen and (max-width: 600px) {
     .projects {
@@ -42,16 +53,5 @@
             'work4'
             'work5'
             'work6'
-    }
-}
-@media screen and (max-width: 992px) {
-    .projects {
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 2fr 2fr 2fr;
-        grid-template-areas: 
-            'title title'
-            'work1 work2'
-            'work3 work4'
-            'work5 work6'
     }
 }

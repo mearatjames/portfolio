@@ -1,0 +1,26 @@
+.carouselBtn {
+    box-shadow: none;
+    background: transparent;
+    border: none;
+    text-decoration: none;
+}
+
+.carouselBtn:focus {
+    outline: none;
+}
+
+.btnNext {
+    position: absolute;
+    right: -25px;
+    top: 50%;
+}
+
+.btnBack {
+    position: absolute;
+    left: -23px;
+    top: 50%;
+}
+
+.slides {
+    text-align: center;
+}
