@@ -6,10 +6,6 @@ import './carousel.css'
  
 export default class Carousel extends React.Component {
 
-  handleClick = () =>  {
-    console.log('clicked')
-  }
-
   render() {
    
     return (
@@ -32,7 +28,7 @@ export default class Carousel extends React.Component {
           <Dot className='carouselBtn' slide={1}><Icon name='window minimize outline' /></Dot>
           <Dot className='carouselBtn' slide={2}><Icon name='window minimize outline' /></Dot>
         </div>
-        <ButtonNext className='carouselBtn btnNext' onClick={this.handleClick}><Icon name='chevron right'/></ButtonNext>
+        <ButtonNext className='carouselBtn btnNext'><Icon name='chevron right'/></ButtonNext>
       </CarouselProvider>
     );
   }

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Container, Button, TextArea, Form, Icon, Header } from 'semantic-ui-react'
-import Slide from 'react-reveal/Slide';
+import Fade from 'react-reveal/Fade';
 import './contact.css'
 
 class Contact extends Component {
@@ -11,12 +11,12 @@ render() {
         <div id='contact'>
           <Container className='contact'>
             <Header textAlign='center' as='h2' icon>
-                <Slide left>
+                <Fade>
                     <Icon className='glow' name='paper plane' />
-                </Slide>
+                </Fade>
                 Contact
             </Header>
-            <Form name="contact" action='#' method="post" data-netlify="true">
+            <Form size='huge' name="contact" action='#' method="post" data-netlify="true">
                 <Form.Field>
                     <input type="hidden" name="form-name" value="contact" />
                 </Form.Field>

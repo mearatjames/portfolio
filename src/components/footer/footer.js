@@ -21,7 +21,7 @@ class Footer extends Component {
                     <h3>Portfolio</h3>
                 </div>
                 <div className='list1'>
-                    <a target='blank' href='https://github.com/mearatjames/Deez-Nutrients'><h3>Deez Nutrients</h3></a> 
+                    <a target='blank' href='https://github.com/mearatjames/nail-artist'><h3>Nail Artist</h3></a> 
                     <a target='blank' href='https://github.com/mearatjames/nytScrapping'><h3>NYT Scraping</h3></a> 
                     <a target='blank' href="https://github.com/mearatjames/googlebooks"><h3>Googlebooks</h3></a> 
                 </div>

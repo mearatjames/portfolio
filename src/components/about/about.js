@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import {Container, Image, Header, Icon, Button } from 'semantic-ui-react'
 import './about.css'
-import Slide from 'react-reveal/Slide';
+import Fade from 'react-reveal/Fade';
 
 class About extends Component {
 
@@ -10,10 +10,11 @@ render() {
     return (
     <div id='about'> 
         <div className='about'>
+        <div>
         <Header textAlign='center' as='h2' icon>
-                <Slide left>
+                <Fade>
                     <Icon className='glow' name='user circle' />
-                </Slide>
+                </Fade>
                 About
         </Header>
             <Container className='aboutMe'>
@@ -31,6 +32,7 @@ render() {
                     </Button>
                 </div>
             </Container>
+        </div>
         </div>
     </div>
     )

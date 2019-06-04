@@ -6,6 +6,22 @@ import Carousel from '../carousel/carousel.js'
 
 const portfolioContents = [
     {
+        header: 'Nail Artist',
+        images: ['./images/nail-artist1.jpg', './images/nail-artist2.jpg', './images/nail-artist3.jpg'],
+        meta: 'Inspiring Nail Artist Website',
+        description: 'All in one site to help boost online presence and improve booking experience',
+        demoLink: 'https://www.aiai91nails.com',
+        githubLink: 'https://github.com/mearatjames/nail-artist'
+    },
+    {
+        header: 'ACCTG Web Accounting',
+        images: ['./images/webaccounting1.jpg', './images/webaccounting2.jpg', './images/webaccounting3.jpg'],
+        meta: 'Basic Web Accounting Application',
+        description: 'A simple enterprise accounting/book-keeping web-based application.',
+        demoLink: 'https://peaceful-anchorage-98434.herokuapp.com/',
+        githubLink: 'https://github.com/stevenguy/bc-project-3/tree/mearat'
+    },
+    {
         header: 'NYT Scraper',
         images: ['./images/nytscraper1.jpg', './images/nytscraper2.jpg', './images/nytscraper3.jpg'],
         meta: 'Web Scraping Project',
@@ -20,22 +36,6 @@ const portfolioContents = [
         description: 'Another MERN stack web application using google books api to search for books.',
         demoLink: 'https://secure-reef-41974.herokuapp.com/',
         githubLink: 'https://github.com/mearatjames/googlebooks'
-    },
-    {
-        header: 'Deez Nutrients',
-        images: ['./images/deeznutrients1.jpg', './images/deeznutrients2.jpg', './images/deeznutrients3.jpg'],
-        meta: 'Nutrition Search and Track Application',
-        description: 'First project utilising NutritionIx and Google Charts api to search and track nutritional value.',
-        demoLink: 'https://vitamind-b6c3c.firebaseapp.com/',
-        githubLink: 'https://github.com/mearatjames/Deez-Nutrients'
-    },
-    {
-        header: 'ACCTG Web Accounting',
-        images: ['./images/webaccounting1.jpg', './images/webaccounting2.jpg', './images/webaccounting3.jpg'],
-        meta: 'Basic Web Accounting Application',
-        description: 'A simple enterprise accounting/book-keeping web-based application.',
-        demoLink: 'https://peaceful-anchorage-98434.herokuapp.com/',
-        githubLink: 'https://github.com/stevenguy/bc-project-3/tree/mearat'
     },
     {
         header: 'Deez Polls',
