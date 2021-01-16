@@ -22,11 +22,11 @@ render() {
                 <div className='link'>
                     <Button target='blank' href='https://github.com/mearatjames/' size='large' circular color='black' icon='github' title='Github' />
                     <Button target='blank' href='https://www.linkedin.com/in/mearat-hou-013a93164/' size='large' circular color='linkedin' icon='linkedin' title='LinkedIn'/>
-                    <Button href='./files/resume.pdf' download size='large' circular color='google plus' icon='file pdf' title='Download Resume' />
+                    <Button href='./files/Mearat_resume.pdf' download size='large' circular color='google plus' icon='file pdf' title='Download Resume' />
                 </div>
                 <img className='myImage' src='./images/aboutMe.jpg' alt='aboutMe' />
                 <div style={{alignSelf:'start'}}>
-                    <Button basic color='blue' href='./files/resume.pdf' target='_blank' icon labelPosition='right'>
+                    <Button basic color='blue' href='./files/Mearat_resume.pdf' target='_blank' icon labelPosition='right'>
                         View Resume
                         <Icon name='right arrow' />
                     </Button>

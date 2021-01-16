@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "version": "0.1.0",
+  "version": "1.0.1",
   "private": true,
   "dependencies": {
     "pure-react-carousel": "^1.18.0",
@@ -8,7 +8,7 @@
     "react-dom": "^16.7.0",
     "react-media": "^1.9.2",
     "react-reveal": "^1.2.2",
-    "react-scripts": "^2.1.5",
+    "react-scripts": "^4.0.1",
     "react-scrollspy": "^3.3.5",
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^0.85.0",

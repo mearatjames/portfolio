@@ -10,7 +10,6 @@ const portfolioContents = [
         images: ['./images/nail-artist1.jpg', './images/nail-artist2.jpg', './images/nail-artist3.jpg'],
         meta: 'Inspiring Nail Artist Website',
         description: 'All in one site to help boost online presence and improve booking experience',
-        demoLink: 'https://www.aiai91nails.com',
         githubLink: 'https://github.com/mearatjames/nail-artist'
     },
     {
@@ -18,7 +17,6 @@ const portfolioContents = [
         images: ['./images/webaccounting1.jpg', './images/webaccounting2.jpg', './images/webaccounting3.jpg'],
         meta: 'Basic Web Accounting Application',
         description: 'A simple enterprise accounting/book-keeping web-based application.',
-        demoLink: 'https://peaceful-anchorage-98434.herokuapp.com/',
         githubLink: 'https://github.com/stevenguy/bc-project-3/tree/mearat'
     },
     {
@@ -26,7 +24,6 @@ const portfolioContents = [
         images: ['./images/nytscraper1.jpg', './images/nytscraper2.jpg', './images/nytscraper3.jpg'],
         meta: 'Web Scraping Project',
         description: 'A MERN stack web application using Cheerio npm package to scrape news off NYT website.',
-        demoLink: 'https://still-castle-19414.herokuapp.com/',
         githubLink: 'https://github.com/mearatjames/nytScrapping'
     },
     {
@@ -34,7 +31,6 @@ const portfolioContents = [
         images: ['./images/googlebooks1.jpg', './images/googlebooks2.jpg', './images/googlebooks3.jpg'],
         meta: 'Book Searching Project',
         description: 'Another MERN stack web application using google books api to search for books.',
-        demoLink: 'https://secure-reef-41974.herokuapp.com/',
         githubLink: 'https://github.com/mearatjames/googlebooks'
     },
     {
@@ -50,7 +46,6 @@ const portfolioContents = [
         images: ['./images/triviagame1.jpg', './images/triviagame2.jpg', './images/triviagame3.jpg'],
         meta: 'Basic Javascript Application',
         description: 'Javascript functions and methods warm up in a form of U.S citizenship trivia game.',
-        demoLink: 'https://mearatjames.github.io/TriviaGame/',
         githubLink: 'https://github.com/mearatjames/TriviaGame'
     }
 ]
@@ -82,10 +77,6 @@ render() {
                         <Card.Description>{e.description}</Card.Description>
                         </Card.Content>
                         <Card.Content className='cardsLink' extra>
-                            <a target='blank' href={e.demoLink}>
-                                <Icon name='globe' />
-                                Demo Link
-                            </a>
                             <a target='blank' href={e.githubLink}>
                                 <Icon name='code branch' />
                                 Github Link
